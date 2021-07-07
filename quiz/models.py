@@ -1,6 +1,7 @@
 from django.db import models
 
 from student.models import Student
+
 class Course(models.Model):
    course_name = models.CharField(max_length=50)
    question_number = models.PositiveIntegerField()
